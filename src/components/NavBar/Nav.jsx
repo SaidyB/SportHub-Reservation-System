@@ -29,9 +29,9 @@ const Nav = () => {
               className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
             >
               {state.darkMode ? (
-                <img className="w-15 h-16 logo2" src="/public/img/image.png" />
+                <img className="w-15 h-16 logo2" src="/img/image.png" />
               ) : (
-                <img className="w-15 h-16 logo1" src="/public/img/logo.png" />
+                <img className="w-15 h-16 logo1" src="/img/logo.png" />
               )}
             </NavLink>
             <button

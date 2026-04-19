@@ -1,8 +1,15 @@
 {
-  "name": "reservasdeportivas",
+  "name": "sporthub-reservation-system",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "A full-stack web application for managing sports equipment reservations with real-time availability tracking",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/SportHub-Reservation-System.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -196,11 +196,11 @@ const Home = () => {
       )}
       <div className="container_home">
         <div className="img1">
-          <img src="../../../public/img/logo.png" alt="" />
+          <img src="/img/logo.png" alt="" />
         </div>
         <div className="img2">
           <img
-            src="../../../public/img/f.elconfidencial.com_original_969_a33_ee1_969a33ee159951475e24bd1f87771f69.png"
+            src="/img/f.elconfidencial.com_original_969_a33_ee1_969a33ee159951475e24bd1f87771f69.png"
             alt=""
           />
         </div>
@@ -214,17 +214,17 @@ const Home = () => {
       </div>
       <article className="sectionCategory">
     <Link className="cardCategory" to={`${routes.categoria}/gimnasio`}>
-      <CardCategory img={"/public/img/Categorias/gimnasio.png"}>
+      <CardCategory img={"/img/Categorias/gimnasio.png"}>
         Gimnasio
       </CardCategory>
     </Link>
     <Link className="cardCategory" to={`${routes.categoria}/deportes`}>
-      <CardCategory img={"/public/img/Categorias/deporte.png"}>
+      <CardCategory img={"/img/Categorias/deporte.png"}>
         Deportes
       </CardCategory>
     </Link>
     <Link className="cardCategory" to={`${routes.categoria}/outdoor`}>
-      <CardCategory img={"/public/img/Categorias/outdoor.png"}>
+      <CardCategory img={"/img/Categorias/outdoor.png"}>
         Outdoor
       </CardCategory>
     </Link>

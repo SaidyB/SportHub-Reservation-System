@@ -1,3 +1,26 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+*.test.js.snap
+
+# Production
+/build
+/dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
 # Logs
 logs
 *.log
@@ -6,11 +29,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +40,47 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.history/
+
+# Cursor-specific files
+.cursor/
+.cursor-tutor/
+.cursorrules
+*.cursor-*
+
+# Markdown files (EXCEPT standard repository files)
+*.md
+!README.md
+!CONTRIBUTING.md
+!LICENSE
+!CHANGELOG.md
+
+# OS specific
+Thumbs.db
+Desktop.ini
+._*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.cache
+.parcel-cache
+.vercel
